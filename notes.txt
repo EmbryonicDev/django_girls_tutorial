@@ -15,4 +15,7 @@
 
 ** Create project
    - django-admin startproject myprojectname
-
+   - update TIME_ZONE in settings:
+      - "Europe/Amsterdam"
+      - for list of time zones: 
+         https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
