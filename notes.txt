@@ -5,3 +5,12 @@
     - To work with myvenv, Start it by running:
         $ source myvenv/bin/activate
          - add myvenv folder to .gitignore
+- Install Django:
+ - first make sure upgrade pip is installed: 
+    $ python -m pip install --upgrade pip
+- Create requirements.txt in root folder
+    - add to requirements.txt -> Django~=3.2.10
+    - $ pip install -r requirements.txt
+      - This will install Django
+
+
