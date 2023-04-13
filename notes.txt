@@ -1,0 +1,7 @@
+** Installing Django
+ - First install virtual environment in folder where project will be held
+    $ python3 -m venv myvenv
+    ** myvenv can be named anything, keep it in lower case with no special characters
+    - To work with myvenv, Start it by running:
+        $ source myvenv/bin/activate
+         - add myvenv folder to .gitignore
