@@ -13,4 +13,6 @@
     - $ pip install -r requirements.txt
       - This will install Django
 
+** Create project
+   - django-admin startproject myprojectname
 
