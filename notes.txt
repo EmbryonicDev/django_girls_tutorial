@@ -19,3 +19,6 @@
       - "Europe/Amsterdam"
       - for list of time zones: 
          https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+   - Add to settings below STATIC_URL:
+      - STATIC_ROOT = BASE_DIR / 'static'
+
