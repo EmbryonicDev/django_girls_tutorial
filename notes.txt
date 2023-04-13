@@ -30,3 +30,6 @@
 ** Start server:
    - python manage.py runserver
 
+** Creating an app:
+   - python manage.py startapp blog
+
