@@ -33,3 +33,6 @@
 ** Creating an app:
    - python manage.py startapp blog
 
+** Create class Post as a model:
+   - blogs/models.py
+
