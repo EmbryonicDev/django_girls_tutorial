@@ -42,3 +42,9 @@
    ** Apply to database:
       - python manage.py migrate blog
 
+*** Django admin
+   ** Register Post model in blog/admin:
+   ** Create superuser in terminal:
+      - $ python manage.py createsuperuser
+
+
