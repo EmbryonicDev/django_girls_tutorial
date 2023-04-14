@@ -24,15 +24,21 @@
    - Add to settings ALLOWED_HOSTS: 
       - ['127.0.0.1', '.pythonanywhere.com']
    
-** Set up databases
- - $ python manage.py migrate
+*** Database
+   ** Set up databases
+   - $ python manage.py migrate
 
-** Start server:
-   - python manage.py runserver
+   ** Start server:
+      - python manage.py runserver
 
-** Creating an app:
-   - python manage.py startapp blog
+   ** Creating an app:
+      - python manage.py startapp blog
 
-** Create class Post as a model:
-   - blogs/models.py
+   ** Create class Post as a model:
+      - blogs/models.py
+
+   ** Create tables for models in database:
+      - python manage.py makemigrations blog
+   ** Apply to database:
+      - python manage.py migrate blog
 
