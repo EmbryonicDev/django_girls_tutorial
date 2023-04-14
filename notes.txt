@@ -49,4 +49,11 @@
     
     ** Add four blog posts via admin interface
 
+*** Django URLs
+   ** Add to mysite/urls.py:
+      - path('', include('blog.urls')),
+   ** Create blog/urls.py, then add to urlpatterns:
+      - path('', view.post_list, name='post_list'),
+
+
 
