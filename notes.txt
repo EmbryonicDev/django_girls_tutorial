@@ -46,5 +46,7 @@
    ** Register Post model in blog/admin:
    ** Create superuser in terminal:
       - $ python manage.py createsuperuser
+    
+    ** Add four blog posts via admin interface
 
 
