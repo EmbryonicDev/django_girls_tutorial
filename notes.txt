@@ -24,7 +24,7 @@
    - Add to settings ALLOWED_HOSTS: 
       - ['127.0.0.1', '.pythonanywhere.com']
    
-*** Database
+** Database
    ** Set up databases
    - $ python manage.py migrate
 
@@ -42,20 +42,26 @@
    ** Apply to database:
       - python manage.py migrate blog
 
-*** Django admin
+** Django admin
    ** Register Post model in blog/admin:
    ** Create superuser in terminal:
       - $ python manage.py createsuperuser
     
     ** Add four blog posts via admin interface
 
-*** Django URLs
+** Django URLs
    ** Add to mysite/urls.py:
       - path('', include('blog.urls')),
    ** Create blog/urls.py, then add to urlpatterns:
       - path('', view.post_list, name='post_list'),
    ** Add to blog/views.py:
       - def post_list
+
+** html
+   - Create blog/templates/blog/post_list.html
+   - Populate new html file with static code for now
+
+
 
 
 
