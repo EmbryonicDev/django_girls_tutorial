@@ -1,3 +1,6 @@
+Link to tutorial
+   - https://tutorial.djangogirls.org/en
+
 ** Installing Django
  - First install virtual environment in folder where project will be held
     $ python3 -m venv myvenv
