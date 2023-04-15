@@ -90,6 +90,15 @@ Link to tutorial
    - Complex queries through method-chaining
       - Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
    
+** Dynamic data in templates
+   - Import Post model to blog/views.py
+   - modify def post_list by adding:
+      - posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+   - also update last argument of the return line:
+      - {'posts' = posts}
+
+   
+
       
 
 
