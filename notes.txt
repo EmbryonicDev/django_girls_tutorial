@@ -97,6 +97,9 @@ Link to tutorial
    - also update last argument of the return line:
       - {'posts' = posts}
 
+** Django templates
+ - Modify post_list.html template to display posts from database.
+   - Check file for details
    
 
       
