@@ -64,6 +64,34 @@ Link to tutorial
    - Create blog/templates/blog/post_list.html
    - Populate new html file with static code for now
 
+** To add new Post models via Django shell:
+   - $ python manage.py shell
+   - $ from blog.models import Post
+   - $ Post.objects.all()
+      - Displays all Post objects
+   - $ from django.contrib.auth.models import User
+   - $ User.objects.all()
+      - Displays superuser created earlier
+   - $ me = User.objects.get(username='admin')
+   - $ Post.objects.create(author=me, title='Sample title', text='Test')
+      - new post created
+   - To filter items:
+      - $ Post.objects.filter(title='First Title')
+      - $ Post.objects.filter(title__contains='First')
+      - $ Post.objects.filter(published_date__lte=timezone.now())
+         - lte = later than or equal to
+   - Publish a post:
+      - post = Post.objects.get(title='Second Title')
+      - post.publish
+   - Sort objects by created_date:
+      - Post.objects.order_by('created_date)
+         - Reversed order:
+         - Post.objects.order_by('-created_date)
+   - Complex queries through method-chaining
+      - Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+   
+      
+
 
 
 
