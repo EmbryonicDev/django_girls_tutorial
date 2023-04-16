@@ -100,7 +100,13 @@ Link to tutorial
 ** Django templates
  - Modify post_list.html template to display posts from database.
    - Check file for details
-   
+
+** Styling
+   - Create new directory + css file:
+      - blog/static/css/blog.css
+      - Update settings: STATIC_URL = '/static/'
+      - Add classes to post_list.html
+      - Add styling to blog.css
 
       
 
