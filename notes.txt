@@ -139,3 +139,6 @@ Link to tutorial
    - Add post_edit.html in blog/templates/blog/ & populate
    - Saving the form
       - Modify def post_new to save new blog
+   - Form validation happens automatically
+   
+   
