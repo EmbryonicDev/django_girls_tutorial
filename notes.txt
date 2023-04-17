@@ -140,5 +140,7 @@ Link to tutorial
    - Saving the form
       - Modify def post_new to save new blog
    - Form validation happens automatically
+   - Edit form:
+      - Add <aside> to post_detail.html
    
    
