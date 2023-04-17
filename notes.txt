@@ -133,3 +133,5 @@ Link to tutorial
       - Add class PostForm
    - Download svg to blog/templates/blog/icons
       - add to base.html
+   - Add url pattern to blog/urls.py
+      - path('post/new/', views.post_new, name='post_new'),
