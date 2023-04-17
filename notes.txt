@@ -126,3 +126,7 @@ Link to tutorial
    - Add URL path to blog/urls.py:
       - path('post/<int:pk>/', views.post_detail, name='post_detail')
    - Add post_detail view to blog/view.py
+   - Create template for post details
+
+
+
