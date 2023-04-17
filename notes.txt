@@ -151,5 +151,9 @@ Link to tutorial
    - Modify post_detail.html so that the 'edit blog button 'will only be shown to authenticated users
       - {% if user.is_authenticated %}
 
+** Part 2 of the tutorial
+   - https://tutorial-extensions.djangogirls.org/en/summary
+
+
    
    
