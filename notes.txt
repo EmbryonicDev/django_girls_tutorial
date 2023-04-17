@@ -143,5 +143,7 @@ Link to tutorial
    - Edit form:
       - Add <aside> to post_detail.html
       - Add path to blog.urls.py
+      - Add def post_edit to blog/views.py
+      
    
    
