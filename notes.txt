@@ -142,5 +142,6 @@ Link to tutorial
    - Form validation happens automatically
    - Edit form:
       - Add <aside> to post_detail.html
+      - Add path to blog.urls.py
    
    
