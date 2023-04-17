@@ -125,3 +125,4 @@ Link to tutorial
       * pk=post.pk? pk is short for primary key, which is a unique identifier for each record in a database
    - Add URL path to blog/urls.py:
       - path('post/<int:pk>/', views.post_detail, name='post_detail')
+   - Add post_detail view to blog/view.py
