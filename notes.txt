@@ -113,3 +113,13 @@ Link to tutorial
    - blog/templates/blog/base.html
 ** Modify post_list.html to extend base.html
    - head can be removed, as well as duplicate code already in base.html
+
+** Extending application
+   - Create link from post's title in post list to the post's detail page.
+      - Change:
+         - <h2><a href="">{{ post.title }}</a></h2>
+         to:
+         - <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+      * {% %} notation means that we are using Django template tags
+      * The post_detail part means that Django will be expecting a URL in blog/urls.py with name=post_detail
+      * pk=post.pk? pk is short for primary key, which is a unique identifier for each record in a database
