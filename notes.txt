@@ -108,13 +108,8 @@ Link to tutorial
       - Add classes to post_list.html
       - Add styling to blog.css
 
+** Extending templates
 ** Create & populate base template
    - blog/templates/blog/base.html
-
-      
-
-
-
-
-
-
+** Modify post_list.html to extend base.html
+   - head can be removed, as well as duplicate code already in base.html
