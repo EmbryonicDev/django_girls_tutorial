@@ -148,5 +148,8 @@ Link to tutorial
 ** Security
    - Modify base.html so that the 'add blog button' will only be shown to authenticated users
       - {% if user.is_authenticated %}
+   - Modify post_detail.html so that the 'edit blog button 'will only be shown to authenticated users
+      - {% if user.is_authenticated %}
+
    
    
