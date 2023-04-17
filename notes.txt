@@ -108,6 +108,9 @@ Link to tutorial
       - Add classes to post_list.html
       - Add styling to blog.css
 
+** Create & populate base template
+   - blog/templates/blog/base.html
+
       
 
 
