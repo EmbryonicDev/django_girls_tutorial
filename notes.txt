@@ -135,3 +135,4 @@ Link to tutorial
       - add to base.html
    - Add url pattern to blog/urls.py
       - path('post/new/', views.post_new, name='post_new'),
+   - Add def post_new to blog/views.py
