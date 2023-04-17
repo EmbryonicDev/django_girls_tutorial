@@ -131,3 +131,5 @@ Link to tutorial
 ** Django forms
    - Create blog/forms.py
       - Add class PostForm
+   - Download svg to blog/templates/blog/icons
+      - add to base.html
