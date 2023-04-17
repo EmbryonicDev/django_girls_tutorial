@@ -123,3 +123,5 @@ Link to tutorial
       * {% %} notation means that we are using Django template tags
       * The post_detail part means that Django will be expecting a URL in blog/urls.py with name=post_detail
       * pk=post.pk? pk is short for primary key, which is a unique identifier for each record in a database
+   - Add URL path to blog/urls.py:
+      - path('post/<int:pk>/', views.post_detail, name='post_detail')
