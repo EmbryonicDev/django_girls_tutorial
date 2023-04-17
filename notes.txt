@@ -128,5 +128,6 @@ Link to tutorial
    - Add post_detail view to blog/view.py
    - Create template for post details
 
-
-
+** Django forms
+   - Create blog/forms.py
+      - Add class PostForm
